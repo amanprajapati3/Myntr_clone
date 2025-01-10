@@ -1,0 +1,7 @@
+#hover_item{
+    display:none;
+}
+#hover:hover > #hover_item{
+    display: block;
+    transition:0.5s;
+}

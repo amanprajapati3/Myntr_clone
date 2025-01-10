@@ -1,0 +1,18 @@
+#person_detail{
+    display:none;
+}
+#Person:hover > #person_detail{
+    display: block;
+    transition:0.5s;
+}
+#myntra_image{
+    mix-blend-mode: multiply;
+}
+#search_box{
+    width: 2rem;
+    transition:0.3s ease-in;
+    outline:none;
+}
+#search_box:focus{
+    width: 100px;
+}
