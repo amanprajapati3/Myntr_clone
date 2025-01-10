@@ -30,7 +30,7 @@ const Header = () => {
             <img
               src="https://static.toiimg.com/photo/imgsize-282668,msid-80601325/80601325.jpg"
               alt="Myntra logo"
-              className="hover:cursor-pointer sm:w-20  w-16 sm:mt-2 "
+              className="hover:cursor-pointer sm:w-20  w-16 sm:mt-2 md:mt-0 "
               id="myntra_image"
             />
           </a>
@@ -38,7 +38,7 @@ const Header = () => {
         <div className="hidden md:block">
           <Navbar />
         </div>
-        <div className="mt-6 flex sm:mr-12  sm:gap ">
+        <div className="mt-6 flex sm:mr-12 sm:gap ">
           <div className="sm:flex gap-1 border-3 border-black rounded-md h-10  mt-2">
             <span
               className="relative text-3xl sm:mt-2 cursor-pointer hidden md:block"
@@ -49,7 +49,7 @@ const Header = () => {
             <input
               type="text"
               list="products"
-              className=" sm:w-96 p-2 h-6 bg-gray-100 hidden md:block
+              className=" sm:w-96 p-2 h-10 mr-2 bg-slate-100 hidden md:block
               outline-none"
               placeholder="search for products, brands and many more "
             />
