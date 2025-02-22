@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     
     <>
-    <div className='bg-gray-200 border-b-4 border-b-gray-300 sm:flex sm:justify-center sm:flex-wrap px-16 py-8 md:gap-44 sm:gap-32 mt-20 '>
+    <div className='bg-gray-200 border-b-4 border-b-gray-300 flex gap-20 flex-wrap mt-10 pt-5 justify-center'>
         <div className='cursor-pointer mb-5'>
           <label htmlFor="" className='font-bold py-2'>Online Shopping</label>
           <p>Mens</p>

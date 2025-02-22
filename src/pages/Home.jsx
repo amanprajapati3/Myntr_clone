@@ -21,11 +21,11 @@ const Home = () => {
 
   return (
     <> 
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 m-2 sm:m-5 md:m-20 gap-10 ">
+      <div className="flex justify-center mt-10 lg:gap-5 flex-wrap">
         {item.map((items, index) => (
           <div
             key={index}
-            className="w-full hover:shadow-xl hover:transition-shadow hover:shadow-black"
+            className="w-[300px] lg:w-[380px] rounded-xl hover:shadow-xl hover:transition-shadow hover:shadow-gray-400"
           >
             <img
               src={items.image}
