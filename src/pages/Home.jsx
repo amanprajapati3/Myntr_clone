@@ -25,27 +25,27 @@ const Home = () => {
         {item.map((items, index) => (
           <div
             key={index}
-            className="w-[300px] lg:w-[380px] rounded-xl hover:shadow-xl hover:transition-shadow hover:shadow-gray-400"
+            className="w-[300px] lg:w-[350px] rounded-xl hover:shadow-xl hover:transition-shadow hover:shadow-gray-400"
           >
             <img
               src={items.image}
-              className="w-full h-80 p-1"
+              className="w-full h-60 p-1"
               alt="item_image"
             />
-            <span className="flex text-xl p-3 ">
+            <span className="flex p-1 ">
               Rating: {items.rating}{" "}
-              <img src={items.star_img} className="w-10 -mt-2" alt="" />
+              <img src={items.star_img} className="w-7 -mt-2" alt="" />
             </span>
-            <label htmlFor="" className="font-semibold text-2xl pl-5">
+            <label htmlFor="" className="font-semibold text-xl pl-5">
               {items.name}
             </label>
             <br />
-            <label htmlFor="" className="text-xl pl-5">
+            <label htmlFor="" className=" pl-5">
               {" "}
               Product Company : {items.company}
             </label>{" "}
             <br />
-            <label htmlFor="" className="text-xl pl-5">
+            <label htmlFor="" className=" pl-5">
               {" "}
               Rs.{items.current_price}{" "}
               <span className="line-through text-sm">
@@ -56,12 +56,12 @@ const Home = () => {
               </span>
             </label>
             {HandleBagButton ?  <button
-              className="w-[70%] m-8 py-2 px-4 bg-green-500 font-normal cursor-pointer sm:text-2xl rounded-xl hover:bg-green-700"
+              className="w-[70%] m-8 py-2 px-4 bg-green-500 font-normal cursor-pointer  rounded-xl hover:bg-green-700"
               onClick={() => HandleBag()}
             >
               Add item to bag
             </button> :  <button
-              className="w-[70%] m-8 py-2 px-4 bg-red-500 font-normal cursor-pointer sm:text-2xl rounded-xl hover:bg-red-700"
+              className="w-[70%] m-8 py-2 px-4 bg-red-500 font-normal cursor-pointer rounded-xl hover:bg-red-700"
               onClick={() => HandleBag()}
             >
               Remove from bag

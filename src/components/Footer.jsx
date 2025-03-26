@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     
     <>
-    <div className='bg-gray-200 border-b-4 border-b-gray-300 flex gap-20 flex-wrap mt-10 pt-5 justify-center'>
-        <div className='cursor-pointer mb-5'>
+    <div className='bg-pink-100 border-b-4 border-b-gray-300 flex gap-20 flex-wrap mt-10 pt-5 justify-center'>
+        <div className='cursor-pointer text-center mb-5'>
           <label htmlFor="" className='font-bold py-2'>Online Shopping</label>
           <p>Mens</p>
           <p>Womans</p>
@@ -15,7 +15,7 @@ const Footer = () => {
           <p>GiftCard</p>
           <p>Myntra Insider</p>
         </div>
-        <div className='cursor-pointer mb-5'>
+        <div className='cursor-pointer text-center mb-5'>
         <label htmlFor="" className='font-bold py-2'>Online Shopping</label>
           <p>Mens</p>
           <p>Womans</p>
@@ -25,7 +25,7 @@ const Footer = () => {
           <p>GiftCard</p>
           <p>Myntra Insider</p>
         </div>
-        <div className='cursor-pointer mb-5'>
+        <div className='cursor-pointer text-center mb-5'>
         <label htmlFor="" className='font-bold py-2'>Online Shopping</label>
           <p>Mens</p>
           <p>Womans</p>
@@ -35,7 +35,7 @@ const Footer = () => {
           <p>GiftCard</p>
           <p>Myntra Insider</p>
         </div>
-        <div className='cursor-pointer'>
+        <div className='cursor-pointer text-center'>
         <label htmlFor="" className='font-bold py-2'>Online Shopping</label>
           <p>Mens</p>
           <p>Womans</p>

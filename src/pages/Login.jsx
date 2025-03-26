@@ -5,8 +5,8 @@ const Login = () => {
     <div className="sm:flex sm:justify-center sm:mt-32">
       <div className="">
         <h1 className="py-10 pl-5 sm:pl-0">
-          <span className="text-2xl font-semibold">Login</span> or{" "}
-          <span className="text-2xl font-semibold">Signup</span>
+          <span className="text-xl font-semibold">Login</span> or{" "}
+          <span className="text-xl font-semibold">Signup</span>
         </h1>
         <input
           type="number"
@@ -20,7 +20,7 @@ const Login = () => {
             Terms of Use & Privacy Policy
           </span>
         </p>
-        <button className="bg-pink-700 text-white font-bold py-2 px-20 mx-10 sm:px-32 text-xl my-5 rounded-xl">
+        <button className="bg-pink-700 text-white font-bold py-2 px-20 mx-10 sm:px-32 my-5 rounded-xl">
           Continue
         </button>
         <p className="pl-6">
